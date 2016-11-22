@@ -11,7 +11,7 @@ def softmax(x):
 	y = np.exp(x) / np.sum(np.exp(x), axis = 0) 
 	return y
 
-print(softmax(scores))
+
 
 # Plot softmax curves
 # matplotlib is a library for graphical representation of math functions
